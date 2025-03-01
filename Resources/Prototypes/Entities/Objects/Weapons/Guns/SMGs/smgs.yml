@@ -21,9 +21,9 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    minAngle: 2
-    maxAngle: 16
-    fireRate: 8
+    minAngle: 16
+    maxAngle: 25
+    fireRate: 7
     burstFireRate: 8
     angleIncrease: 3
     angleDecay: 16
@@ -105,11 +105,11 @@
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -16
+    minAngle: -11
+    maxAngle: -14
   - type: Gun
-    minAngle: 21
-    maxAngle: 32
+    minAngle: 19
+    maxAngle: 27
     shotsPerBurst: 5
     availableModes:
     - Burst
@@ -143,12 +143,12 @@
     - type: Wieldable
       unwieldOnUse: false
     - type: GunWieldBonus
-      minAngle: -19
-      maxAngle: -16
+      minAngle: -16
+      maxAngle: -22
     - type: Gun
-      minAngle: 21
-      maxAngle: 32
-      fireRate: 6
+      minAngle: 20
+      maxAngle: 31
+      fireRate: 7.5
       burstFireRate: 12
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -207,9 +207,9 @@
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
   - type: Gun
-    fireRate: 5.5
-    minAngle: 1
-    maxAngle: 6
+    fireRate: 7
+    minAngle: 16
+    maxAngle: 21
     angleIncrease: 1.5
     angleDecay: 6
     selectedMode: FullAuto
