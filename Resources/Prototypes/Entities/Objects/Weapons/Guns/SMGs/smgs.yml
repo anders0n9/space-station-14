@@ -78,7 +78,9 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 10
+    fireRate: 8
+     minAngle: 18
+    maxAngle: 25
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: MagazineVisuals
@@ -108,6 +110,7 @@
     minAngle: -11
     maxAngle: -14
   - type: Gun
+    fireRate: 7
     minAngle: 19
     maxAngle: 27
     shotsPerBurst: 5
